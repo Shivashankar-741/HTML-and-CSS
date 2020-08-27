@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #333;
+}
+
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(12, 30px);
+  grid-template-columns: repeat(8, 80px);
+  grid-gap: 20px;
+}
+
+.main-content {
+  /* width: 80%; */
+  margin: 50px auto;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-item {
+  background: #f96855;
+  color: #c4c4c4;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-size: cover;
+  background-position: top left;
+  transition: all ease 200ms;
+  position: relative;
+  z-index: 10;
+}
+
+.portfolio-item.one {
+  grid-column: span 8;
+  grid-row: span 4;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-item.two {
+  grid-column: span 5;
+  grid-row: span 4;
+  background-image: url("https://source.unsplash.com/1600x900/?cars");
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-item.three {
+  grid-row: span 5;
+  grid-column: span 3;
+  background-image: url("https://source.unsplash.com/1600x900/?apple");
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-item.four {
+  grid-row: span 2;
+  grid-column: span 2;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-item.five {
+  grid-column: span 3;
+  grid-row: span 2;
+  background-image: url("https://source.unsplash.com/1600x900/?bikes");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  transition: all ease-in 200ms;
+}
+.portfolio-item.five:hover{
+    background-blend-mode: normal;
+}
+.portfolio-item.six{
+    grid-column: span 3;
+    grid-row: span 3;
+    background-image: url("https://source.unsplash.com/1600x900/?fire");
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio-item.seven{
+    grid-column: span 5;
+    grid-row: span 2;
+    background-image: url("https://source.unsplash.com/1600x900/?natureforest");
+    background-position: center;
+    background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+span{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+footer{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    margin-bottom: 0;
+    word-spacing: 0.2em;
+}

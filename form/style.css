@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+}
+
+.container {
+  background-color: white;
+  width: 55%;
+  margin: 40px auto;
+  padding: 20px;
+  border: white 1px solid;
+  border-radius: 25px;
+  align-items: center;
+  text-align: center;
+  box-shadow: lightgrey 2px 4px 0.8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-container {
+  border: lightgrey 1px solid;
+  text-align: left;
+  padding: 20px;
+}
+
+.form-1,
+.form-2,
+.form-3,
+.form-4,
+.form-5,
+.form-6,
+.form-7 {
+  padding: 15px;
+}
+
+#showcase {
+  border: lightgrey 1px solid;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.check-box-1,
+.check-box-2,
+.check-box-3,
+.check-box-4,
+.check-box-5,
+.check-box-6 {
+  padding: 15px;
+}
+
+article {
+  border: lightgrey 1px solid;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.label-1,
+.label-2 {
+  padding: 15px;
+}
+
+main {
+  border: lightgrey 1px solid;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+footer {
+  margin-top: 20px;
+}
+
+button{
+    background-color: blue;
+    color: wheat;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+button:hover{
+    transform: scale(0.98);
+    background-color: red;
+}

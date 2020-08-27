@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  width: 100%;
+  background-color: turquoise;
+}
+
+.container .box {
+  position: relative;
+  margin: 200px 0;
+  width: 300px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: lightslategray;
+  /* border-radius: 20px */
+}
+
+.shadow-1 {
+  box-shadow: -30px 30px 25px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.container .shadow-2::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  width: 90%;
+  height: 50px;
+  /* background:rgba(0, 0, 0, 0.3); */
+    background:rgba(0, 0, 0, 0.3)
+    transform-origin: left;
+    transform:skewY(5deg);
+    z-index: -1;
+    filter: blur(5px);
+}
+.container .shadow-6{
+    background-color: turquoise;
+    border-radius: 15px;
+    box-shadow: -15px -15px 10px rgba(255, 255, 255, 0.2), 
+                -15px -15px 5px rgba(0 , 0, 0, 0.1);
+
+}
+
+.container .shadow-7{
+    background-color: turquoise;
+    border-radius: 15px;
+    box-shadow: -15px -15px 10px rgba(255, 255, 255, 0.2), 
+                -15px -15px 5px rgba(0 , 0, 0, 0.1);
+                inset: -5px -5px 5px rgba(255, 255, 255, 0.2);
+                inset: -5px -5px 5px  rgba(0 , 0, 0, 0.1);
+}

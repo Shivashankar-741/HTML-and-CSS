@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+.name-1 li {
+  display: inline-block;
+  /* float: right; */
+}
+.name-1 a {
+  text-decoration: none;
+}
+.name-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  top: 0;
+}
+.header {
+  height: 30vh;
+  background-color: black;
+  color: cornsilk;
+}
+
+.header a {
+  color: cornsilk;
+}
+.name-1 li {
+  margin: 0 30px;
+  position: relative;
+  bottom: 105px;
+}
+
+.name p {
+  padding: 50px;
+}
+
+.background-video video {
+  width: 100%;
+  /* height: 50vh; */
+}
+
+footer {
+  height: auto;
+  background-color: black;
+  color: whitesmoke;
+  align-items: center;
+  text-align: center;
+}
+
+.social-contact ul {
+  list-style-type: none;
+}
+
+.social-contact a {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.social-contact a:hover {
+  color: tomato;
+}
+
+#grid-main {
+  background-color: black;
+  color: wheat;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#showcase {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+.text-content{
+  position: absolute;
+  color: whitesmoke;
+}
+
+#showcase{
+  background: url(/Portfolio/video/TV_Studio_Camera_Lens_System_Close.mp4);
+  width: 100%;
+}

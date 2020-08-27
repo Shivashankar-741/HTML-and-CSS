@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.background-image img{
+    width: 100%;
+}
+.text-content p{
+    font-family: "ZCOOL KuaiLe", cursive;
+    padding: 30px 0;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-gap: 70px;
+    height: 70vh;
+}
+
+.grid-container{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.grid-container .common{
+    /* border-bottom: transparent 1px solid; */
+    border-bottom: rgba(50, 115, 220, 0.3) 1px solid;
+    padding-top: 3px;
+}
+.image-content img{
+    height: 100%;
+    width: 100%;
+}
+
+.left-content{
+    padding-left: 20px;
+}
+
+table {
+    font-size: 8px;
+}
+table tr{
+    border-bottom: rgba(50, 115, 220, 0.3) 1px solid;
+}
+
+footer{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    /* margin-top: 80px; */
+    font-family: "ZCOOL KuaiLe", cursive;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+span{
+    color: royalblue;
+}

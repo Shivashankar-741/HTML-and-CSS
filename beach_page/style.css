@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: orange;
+  line-height: 1.5;
+}
+
+#showcase-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/two-sconce-shells-at-the-beach-during-sunset-2132055\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: wheat;
+}
+
+section#showcase-1 h1 {
+  font-size: 50px;
+  padding-bottom: 2px;
+}
+section#showcase-1 p {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+section#showcase-1 a {
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  color: gray;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 17px;
+  background-color: transparent;
+}
+
+section#showcase-1 a:hover {
+  color: gray;
+  background-color: wheat;
+}
+
+#showcase-2 {
+  justify-content: center;
+  text-align: center;
+  padding: 16px 30px;
+  background-color: orange;
+  color: white;
+  line-height: 1.8;
+}
+
+#showcase-3 {
+  justify-content: center;
+  text-align: center;
+  padding: 16px 30px;
+  background-color: white;
+  color: orange;
+  line-height: 1.8;
+}
+
+.main-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box-1,
+.box-3 {
+  color: white;
+  background-color: orange;
+  padding: 20px;
+}
+
+.box-2
+  padding: 20px;
+}
+@media (max-width: 568px) {
+  #showcase-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/two-sconce-shells-at-the-beach-during-sunset-2132055\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: wheat;
+  }
+
+  #showcase h1 p{
+      padding: 80px;
+  }
+  #showcase-1 .btn{
+      margin-bottom: 40px;
+      display: block;
+  }
+}

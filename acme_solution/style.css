@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+section #showcase {
+  height: 70vh;
+}
+
+#showcase-1 .image-1 img {
+  width: 100%;
+  z-index: -1;
+  filter: blur(3px);
+  height: 80vh;
+  opacity: 0.8;
+}
+#showcase-1 .text-content {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  /* text-align: left; */
+  padding: 0 150px;
+  font-size: 20px;
+}
+.text-content h2 {
+  padding-bottom: 15px;
+}
+
+.text-content p {
+  padding-bottom: 25px;
+}
+
+.text-content a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+.text-content a:hover {
+  color: black;
+  background-color: wheat;
+}
+
+section#showcase-2{
+    width: 70%;
+    margin: 0 auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.grid-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 40px;
+    padding-bottom: 20px;
+    
+}
+section#showcase-2 h2{
+    padding: 20px 0;
+
+}
+
+#showcase-3{
+    /* width: 70%; */
+    /* margin: 40px auto; */
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.photo-1{
+    /* height: 400px; */
+}
+
+.photo-1 img{
+    width: 250px;
+    height: 150px;
+}
+.photo-2 img{
+    width: 250px;
+    height: 150px;
+}
+
+.photo-3 img{
+    width: 250px;
+    height: 150px;
+}

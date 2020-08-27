@@ -1,0 +1,55 @@
+body{
+    background-color: #333;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+    transition: ease-out 1s;
+    animation-name:myanimation;
+}
+
+.container:hover{
+    transform: translate(400px);
+    background-color: green;
+}
+
+@keyframes myanimation{
+    0% {
+        background-color: gray;
+        /* transform: translate(0); */
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        /* transform: translate(400px); */
+        background-color: green;
+        left: 400px
+        top: 0;
+    }
+    50%{
+        /* transform: translate(0, -400px); */
+        background-color:violet;
+        top:0;
+        bottom:400px;
+    }
+
+    75%{
+        /* transform: translate(-400px, 0); */
+        left: 400px;
+        top:400px;
+
+        background-color: hotpink;
+    }
+    100%{
+        /* transform: translate(0, 400px); */
+        left:0;
+        top:0;
+        background-color: greenyellow;
+    }
+}

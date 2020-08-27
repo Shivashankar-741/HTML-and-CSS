@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  wi;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+    position: sticky;
+    top: 0rem;
+}
+
+#navigation li {
+  list-style-type: none;
+  padding: 5px 25px;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: wheat;
+}
+
+#navigation ul {
+  padding-top: 15px;
+  height: 8vh;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between */
+}
+
+section#Overview{
+    font-size: 30px;
+    color: wheat;
+    width: 100%
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/showcase.jpeg ');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backdrop-filter: 2px; */
+    /* backface-visibility:; */
+    /* background-origin: border-box; */
+}
+
+section#Overview h1{
+    padding-bottom: 50px;
+}
+section#Overview h2{
+    padding-bottom: 80px;
+}
+section#Overview p{
+    text-align: center;
+    padding: 40px 60px;
+}
+section#music{
+    background-color: #333;
+    font-size: 22px;
+    color: wheat;
+    line-height: 1.8;
+}
+
+.photo-1 img{
+    width: 90%;
+    padding: 25px 0;
+}
+.music-1{
+    text-align: center;
+}
+.photo-1{
+    text-align: center;
+}
+.music-1 h1{
+    padding-top: 30px;
+}
+
+.music-1 h2{
+    padding-top: 30px;
+}
+
+.music-1 p{
+    text-align: center;
+    padding: 30px 80px;
+}
+
+.btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: wheat;
+    background-color:brown;
+    border: 1px solid  ;  
+    padding: 15px 15px;  
+    font-size: 15px;
+    border: none;
+    text-align: center;
+}
+.btn{
+    padding: 20px 0px;
+}
+
+section#video{
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 26px;
+}
+
+section#video h2, p{
+    padding: 30px 0;
+}
+section#video .btn-2 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    /* border: 1px solid; */
+    border: none;
+    padding: 20px 17px;
+    display: inline-block;
+}
+
+section#video .btn-2 a:hover{
+    opacity: 0.7;
+}
+
+.photo-2 img{
+    width: 90%;
+}
+
+section#backimage{
+    font-size: 26px;
+    color: wheat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url('./images/silhouette-of-man-1480690.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#backimage p{
+    padding: 60px 80px;
+}
+
+.photo-3{
+    /* display: inline-block; */
+    width: 600px;
+    height: 180px;
+    ma
+}
+
+section#giftcard{
+   
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 70vh;
+    font-size:17px;
+    color:gray;
+    
+}
+.side-content .p-2tag{
+    padding-bottom: 40px;
+    border-bottom: 1px dotted red;
+}
+
+
+.side-content{
+    
+    padding: 50px 40px;
+    
+    
+}
+
+.last-list a{
+    text-decoration: none;
+}
+.last-list li{
+    list-style-type: symbols('');
+}
+footer#last-foot{
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    line-height: 1.8;
+    color: silver;
+    font-size: 15px;
+}
+
+footer#last-foot li{
+
+    list-style-type: none;
+}
+
+.foot-1 h2
+{
+    /* padding-bottom: 5px; */
+    border-bottom: 0.5px dotted lightgray;
+}
+
+.foot-2 h2
+{
+    /* padding-bottom: 5px; */
+    border-bottom: 0.5px dotted lightgray;
+}
+
+.foot-3 h2
+{
+    /* padding-bottom: 5px; */
+    border-bottom: 0.5px dotted lightgray;
+}
+
+.foot-4 h2
+{
+    /* padding-bottom: 5px; */
+    border-bottom: 0.5px dotted lightgray;
+}
+
+.foot-5 h2
+{
+    /* padding-bottom: 5px; */
+    border-bottom: 0.5px dotted lightgray;
+}
+#last-foot ul{
+    padding-top: 15px;
+}
+
+footer#last-foot-2{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: silver;
+    background-color: black;
+}

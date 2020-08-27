@@ -1,0 +1,81 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    /* opacity: 0.05; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* fixed=parallax */
+    /* scroll=normal */
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../day7/images/image1.jpg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url('../day7/images/image2.jpg');
+    min-height: 600px;
+}
+
+.pimg3{
+    background-image: url('../day7/images/image3.jpg');
+    min-height: 600px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: white;
+    color: gray;
+}
+
+.section-dark{
+    background-color: black;
+    color: white
+}
+
+.ptext{
+    text-align: center;
+    /* justify-content: center; */
+    position: absolute;
+    top: 50%;
+    color: black;
+    width: 100%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+
+.pimg1 .ptext .border{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.pimg3 .ptext .border, .pimg2 .ptext .border{
+    background-color: transparent;
+}
+
+.pimg3 .ptext .border.name{
+    color:white;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+/* global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* header */
+
+header {
+  background: #35424a;
+  color: white;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: red 4px solid;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* global */
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+header li {
+  display: inline-block;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: red;
+    font-weight: bold;
+    
+}
+
+header a:hover{
+    color: gray;
+    font-weight: bold;
+}
+
+#showcase{
+  min-height: 400px;
+  background: url('../img/showcase.jpeg')no-repeat 0 -400px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 55px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* newsletter */
+
+#newsletter{
+  padding: 15px;
+  color: whitesmoke;
+  background: #35424a;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 5px;
+  height: 25px;
+  width: 250px;
+
+}
+
+.button_1{
+  height: 38px;
+  background: red;
+  color:white;
+  border: none;
+  padding: 0 20px 0 20px;
+
+}
+
+/* boxes */
+
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box-1,.box-2,.box-3{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+/* sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* main-col */
+
+article#main-col{
+  float: left;
+  width: 65%;
+
+}
+footer{
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.dark{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* media queries */
+
+@media(max-width:768px){
+  header #branding,
+  header nav,
+  header nav li
+  #newsletter h1
+  #newsletter form{
+
+    float: none;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+
+  }
+  #newsletter form{
+    text-align: center;
+  }
+}
+
+#name{
+  text-decoration: underline;
+  color: aqua;
+}

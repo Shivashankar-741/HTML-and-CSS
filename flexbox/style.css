@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+
+.common{
+    /* margin: 0 10px; */
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  background-color: skyblue;
+  /* position: relative; */
+}
+
+.container h1 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  padding: 40px 0;
+}
+.main-container {
+  width: 50%;
+  margin: 60px auto;
+  background-color: white;
+  height: auto;
+  padding: 50px;
+  border-radius: 40px;
+  box-shadow: -30px 39px 10px rgba(0, 0, 0, 0.3);
+}
+.heading-1,
+.first-content,
+.first-content,
+.second-content,
+.third-content,
+.four-content,
+.five-content,
+.six-content,
+.seven-content {
+  padding: 20px 50px;
+}
+.heading-1 {
+  text-align: center;
+}
+
+input[type='text']{
+    padding: 5px 10px;
+    margin-left: 5px;
+    /* border-radius: px; */
+}
+input[type='email']{
+    padding: 5px 10px;
+    margin-left: 5px;
+    /* border-radius: px; */
+}
+input[type='number']{
+    padding: 5px 10px;
+    margin-left: 5px;
+    /* border-radius: px; */
+}
+input[type='checkbox']{
+    padding: 5px 10px;
+    margin-left: 5px;
+    /* border-radius: px; */
+}
+select{
+    padding: 5px 10px;
+    margin-left: 5px;
+    /* border-radius: px; */
+}
+
+.text-1{
+    margin-top: 15px;
+}
+
+.six-content-2{
+    margin-top: 10px;
+}
+
+.six-content-2 > label{
+    margin-top: 10px;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+    /* width: 20%; */
+}
+
+.btn button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:lightslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    /* margin: 50px 10px ; */
+    text-transform: capitalize;
+}
